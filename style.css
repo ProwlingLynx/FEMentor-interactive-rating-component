@@ -1,3 +1,27 @@
-* {
-    color: red;
+:root {
+    --article-background: hsl(213, 19%, 18%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+section {
+    background-color: var(--article-background);
+    width: 25.75rem;
+    height: 26rem;
+    z-index: 1;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
