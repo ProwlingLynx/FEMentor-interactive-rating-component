@@ -1,5 +1,8 @@
 :root {
-    --article-background: hsl(213, 19%, 18%);
+    --article-background: #181E27;
+    --primary-color: hsl(25, 97%, 53%);
+    --header-color: hsl(0, 0%, 100%);
+    --text-color: hsl(217, 12%, 63%);
 }
 
 body {
@@ -10,14 +13,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: -1;
 }
 
 section {
     background-color: var(--article-background);
     width: 25.75rem;
     height: 26rem;
-    z-index: 1;
+    border-radius: 30px;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
