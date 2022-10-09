@@ -3,7 +3,8 @@
     --primary-color: hsl(25, 97%, 53%);
     --header-color: hsl(0, 0%, 100%);
     --text-color: hsl(217, 12%, 63%);
-    --star-background-color: hsl(213, 19%, 18%);
+    --circle-background-color: hsl(213, 19%, 18%);
+    --side-margin: 2rem;
 }
 
 body {
@@ -22,27 +23,50 @@ section {
     height: 26rem;
     border-radius: 30px;
     color: var(--text-color);
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 picture {
     height: 3rem;
     width: 3rem;
     border-radius: 1.5rem;
-    background-color: var(--star-background-color);
+    background-color: var(--circle-background-color);
+    margin-left: var(--side-margin);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 img {
     height: 1rem;
     width: 1rem;
 }
 h2 {
+    margin-left: var(--side-margin);
     color: var(--header-color);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.15rem;
+}
+p {
+    margin-left: var(--side-margin);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+form {
+    margin-left: var(--side-margin)
 }
 button {
+    margin-left: var(--side-margin);
     background-color: var(--primary-color);
     color: var(--header-color);
+    width: 21.25rem;
+    height: 2.8125rem;
+    border-radius: 22.5px;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
