@@ -1,7 +1,9 @@
 const options = document.getElementsByClassName("rating-select");
-let selectedValue = '';
 const form = document.getElementsByTagName("form")[0];
 const button = document.getElementsByTagName("button")[0];
+const section = document.getElementsByTagName("section")[0];
+
+let selectedValue = '';
 
 const resetAllOptions = (arr) => {
     for (let i = 0; i < arr.length; i++) {
@@ -30,5 +32,14 @@ const thankForSelection = (e) => {
     }
 }
 
+const clearChildren = () => {
+    let child = section.lastElementChild;
+    while (child) {
+        section.removeChild(child);
+        child = section.lastElementChild;
+    };
+};
+
 form.addEventListener("click", listenForClick);
 button.addEventListener("click", thankForSelection);
+// button.addEventListener("click", clearChildren);
