@@ -116,3 +116,13 @@ button:active {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+.hidden {
+    display: none;
+}
+
+.thank-you-image {
+    border-radius: 0px;
+    height: 6.75rem;
+    width: 10.125rem;
+}
