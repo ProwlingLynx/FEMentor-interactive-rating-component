@@ -10,6 +10,8 @@
   --active-circle-color: var(--primary-color);
 }
 
+/* Centers content */
+
 body {
   width: 100vw;
   height: 100vh;
@@ -19,6 +21,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* Select rating start */
 
 section {
   background-color: var(--article-background);
@@ -32,6 +36,9 @@ section {
   justify-content: center;
   gap: 2rem;
 }
+
+/* star circle */
+
 picture {
   height: 3rem;
   width: 3rem;
@@ -48,6 +55,9 @@ img {
   height: 1rem;
   width: 1rem;
 }
+
+/* call to action text */
+
 article {
   margin-left: var(--side-margin);
   margin-right: var(--side-margin);
@@ -69,6 +79,9 @@ p {
   font-weight: 400;
   line-height: 1.5rem;
 }
+
+/* rating buttons start */
+
 form {
   display: flex;
   justify-content: center;
@@ -111,6 +124,9 @@ button:active {
   background-color: var(--active-button-color);
   color: var(--primary-color);
 }
+
+/* attribution outside of main */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -119,14 +135,21 @@ button:active {
   color: hsl(228, 45%, 44%);
 }
 
+/* removes from document flow */
+
 .hidden {
   display: none;
 }
+
+/* targets second page */
 
 #thank-you-container {
   align-items: center;
   gap: 2rem;
 }
+
+/* Overriding picture styles */
+
 #thank-you-container picture {
   height: fit-content;
   width: fit-content;
@@ -137,6 +160,8 @@ button:active {
   height: 6.75rem;
   width: 10.125rem;
 }
+
+/* Independent section that reflects selection */
 
 .you-selected {
   height: 2rem;
@@ -149,6 +174,8 @@ button:active {
   align-items: center;
   justify-content: center;
 }
+
+/* Overriding alignment */
 
 #thank-you-container article {
   align-items: center;
