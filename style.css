@@ -5,6 +5,9 @@
     --text-color: hsl(217, 12%, 63%);
     --circle-background-color: hsl(213, 19%, 18%);
     --side-margin: 2rem;
+    --active-button-color: white;
+    --hover-circle-color: hsl(216, 12%, 54%);
+    --active-circle-color: var(--primary-color);
 }
 
 body {
@@ -83,6 +86,14 @@ form {
     align-items: center;
 }
 
+.rating-select:hover {
+    background-color: var(--hover-circle-color);
+}
+
+.active {
+    background-color: var(--primary-color);
+    color: white;
+}
 button {
     margin-left: var(--side-margin);
     background-color: var(--primary-color);
@@ -90,6 +101,13 @@ button {
     width: 21.25rem;
     height: 2.8125rem;
     border-radius: 22.5px;
+    line-height: 1.1875px;
+    letter-spacing: 2px;
+}
+
+button:active {
+    background-color: var(--active-button-color);
+    color: var(--primary-color);
 }
 .attribution { 
     font-size: 11px; text-align: center; 
