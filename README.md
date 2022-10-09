@@ -14,7 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -37,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://prowlinglynx.github.io/FEMentor-interactive-rating-component/)
+- Live Site URL: [Live Link](https://prowlinglynx.github.io/FEMentor-interactive-rating-component/)
 
 ## My process
 
@@ -50,33 +49,34 @@ Users should be able to:
 
 ### What I learned
 
+I learned that time estimations are hard. I underestimated the amount of time it would have taken me to implement all the features using plain JS, html, and css.
 
+Up to this point I have used frameworks to implement the interactive portions of my projects. Going through this process without them helped me understand how semantic elements help with code readability.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I recognize now which parts are made trivial using frameworks and how they speed up the process significantly.
+- Example: I used a closure variable to maintain the user's selection, when react would use state instead. Likewise, react could render the views using conditional rendering for the project.
+
+Mobile development is hard when you don't add specific plans for it.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I still need to work on deconstructing and planning the project. I did better than the first times, but I realize that my need to revisit code I had considered complete to be a sign for improvement.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Time estimations are still off mostly from not working with plain javascript in a while. I also need to be mindful of the extra time needed to document code, update the readmes as part of the process, and the time for deployment.
+
+On the point of documentation. I added comments after completing the desktop implementation. I realized how helpful they were when I was working on the mobile aspect.
+
+Despite my own criticisms, I did have fun with the project. I enjoy the challenge and frustration that comes from finding knowledge gaps.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN](https://developer.mozilla.org/en-US/)
+- [W3 schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3C](https://www.w3.org/) - This one might seem out of place. However if you have questions on why something is the way it is. This is the place to go. I had to go here to understand why some of the answers in stack overflow said you couldn't change the color of the radio buttons natively. In that instance there were some work arounds but I judged them too time intensive.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Github - [Javier Tamez @ProwlingLynx](https://github.com/ProwlingLynx)
+- Frontend Mentor - [Javier Tamez @ProwlingLynx](https://www.frontendmentor.io/profile/ProwlingLynx)
+- Linkedin - [Javier Tamez](https://www.linkedin.com/in/javier-tamez/)
