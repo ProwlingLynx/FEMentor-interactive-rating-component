@@ -199,6 +199,12 @@ button:active {
   gap: 2rem;
 }
 
+@media screen and (max-width: 1439px) {
+  #thank-you-container {
+    gap: 1.5rem;
+  }
+}
+
 /* Overriding picture styles */
 
 #thank-you-container picture {
@@ -210,6 +216,16 @@ button:active {
   border-radius: 0px;
   height: 6.75rem;
   width: 10.125rem;
+}
+
+@media screen and (max-width: 1439px) {
+  #thank-you-container picture {
+    margin: 0px;
+  }
+  .thank-you-image {
+    height: 6rem;
+    width: 9rem;
+  }
 }
 
 /* Independent section that reflects selection */
@@ -226,8 +242,16 @@ button:active {
   justify-content: center;
 }
 
+@media screen and (max-width: 1439px) {
+  .you-selected {
+    width: 10.5rem;
+    height: 2rem;
+  }
+}
+
 /* Overriding alignment */
 
 #thank-you-container article {
   align-items: center;
+  text-align: center;
 }
